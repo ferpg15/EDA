@@ -687,7 +687,7 @@ if pagina == "Inicio":
 
     with col6:
         st.subheader("Top 10 ciudades por pedidos")
-        st.bar_chart(df_ciudades.set_index('Ciudad')['total_orders'].head(10))
+        st.bar_chart(df_ciudades.set_index('Ciudad')['Pedidos totales'].head(10))
 
     st.markdown("---")
 
